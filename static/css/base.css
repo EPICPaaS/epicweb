@@ -1,0 +1,164 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	box-sizing:border-box;
+	font-family: "Microsoft YaHei","SimHei";
+	}
+a{
+	text-decoration:none;
+	}
+	
+body ,ul,li,dt,dd ,h1 ,h2 ,h3{
+	margin:0px;
+	padding:0px;
+	
+	color:#333333;
+	list-style:none;
+}
+body{
+	background-color:rgb(236, 236, 236)
+	}
+
+.head{
+	width:100%;
+	height:70px;
+	/*background-color:rgb(64, 65, 68);*/
+	/*background-color:#0099FF ;*/
+	background-color:#FFF;
+	border-bottom: #e3e3e3 solid 1px;
+	}
+	
+.head .head-content{
+	color:#FFF;
+	width:990px;
+	position:absolute;
+	left:50%;
+	margin-left:-495px;
+	height:70px;
+	}
+	
+.head-content .logo{
+	float:left;
+	width:200px;
+	height:70px;
+	text-align:center;
+	font-size:50px;
+	color:#9AEA06;
+	}
+.head-content .logo img{
+	margin-top:15px;
+	}
+.head-content .menu{
+	float:left;
+	width:650px;
+	height:70px;
+	line-height:68px;
+	}
+	
+.head-content .menu ul{
+	list-style:none;
+	float:right;
+	}
+	
+.head-content .menu-ul li{
+    float:left;
+	margin-right:30px;
+    }
+	
+.menu-ul li a{
+	text-decoration:none;
+	color:#666;
+	}
+	
+.menu-select{
+	border-bottom:#666 solid 3px;
+	color:#FFF;
+	}
+.head-content .userinfo{
+	float:right;
+	width:150px;
+	margin-top:0px;
+	height:70px;
+	line-height:70px;
+	}
+.userinfo ul{
+	list-style:none;
+	color:#FFF;
+	}
+.userinfo ul li {
+	float:left;
+	width:50px;
+	text-align:center;
+	}
+.userinfo ul li:hover{
+	background-color:#00CCFF;
+	}
+.userinfo ul li a {
+	text-decoration:none;
+	color:#0000FF;
+	}
+.content{
+	width:990px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:rgb(253,253,253);
+	}
+/*尾部*/
+.foot{
+	margin-top:30px;
+	float:left;
+	width:100%;
+	height:170px;
+	border-top:#CCC solid 1px;
+	padding-top:20px;
+	}
+.foot .f_content{
+	width:990px;
+	height:170px;
+	margin-left:auto;
+	margin-right:auto;
+	}
+.foot .menu_link{
+	float:left;
+	width:750px;
+	height:170px;
+	}
+.menu_link ul li{
+	height:25px;
+	line-height:25px;
+	font-size:14px;
+	}
+.menu_link .link_panel{
+	width:180px;
+	height:auto;
+	float:left;
+	text-align:center;
+    }
+ .link_panel a{
+	text-decoration:none;
+	list-style:none;
+	}
+ .link_panel img{
+	  border:none;
+	 }
+.menu_link ul li a{
+	text-decoration:none;
+	color:#0066FF;
+	}
+
+.foot .ttention{
+	float:right;
+	width:210px;
+	height:170px;
+	}
+.foot .ttention h3{
+	color:#0066FF;
+	}
+.ttention .code{
+	 margin-top:10px;
+	 width:80px;
+	 height:80px;
+	 float:left;
+	 margin-right:20px;
+	 background-color:#CCC;
+	}

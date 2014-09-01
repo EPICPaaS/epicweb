@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+.box{
+    width:990px;
+	height:auto;
+	height:300px;
+	margin-top:10px;
+	margin-left:auto;
+	margin-right:auto;
+	}
+	
+.item {
+	padding-top: 9px;
+	height: 60px;
+	line-height: 34px;
+	position: relative;
+	z-index: 1;
+	}
+.item .label {
+	width: 190px;
+	text-align: right;
+	font-size: 14px;
+	color: #999;
+	padding-right: 10px;
+	}
+	
+.item .label b {
+	color: #F00;
+    }
+	
+.item  .text {
+	width:238px;
+	height:16px;
+	padding: 10px 25px 10px 5px;
+	border: 1px solid #cccccc;
+	float: none;
+	font-size: 14px;
+	color: #999;
+	}
+item-ifo .i-name {
+	background:url(one4.jpg) no-repeat scroll 0 0 transparent;
+	height: 16px;
+	top: 9px;
+	width: 16px;
+	}
+

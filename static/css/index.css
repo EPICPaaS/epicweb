@@ -1,0 +1,255 @@
+@charset "utf-8";
+/* CSS Document */
+/*图片轮播*/
+.img_lunbo{
+	width:600;
+	height:300px;
+	background-color:#CCC;
+	}
+.banner {
+	position: relative;
+	width: 600;
+	line-height: 24px;
+	text-align: center;
+	color: rgba(255,255,255,.6);
+	text-shadow: 0 0 1px rgba(0,0,0,.05), 0 1px 2px rgba(0,0,0,.3);
+
+	background: #5b4d3d;
+	box-shadow: 0 1px 2px rgba(0,0,0,.25);
+}
+.banner ul{
+		list-style: none;
+		width: 300%;
+	}
+.banner .inner{
+	width:100%;
+	height:300px;
+	}
+.banner ul li {
+	display: block;
+	float: left;
+	height: 300px;
+	box-shadow: inset 0 -3px 6px rgba(0,0,0,.1);
+}
+.banner h1, .banner h2 {
+	font-size: 40px;
+	line-height: 52px;
+	color: #fff;
+}
+
+.banner .btn {
+	display: inline-block;
+	margin: 25px 0 0;
+	padding: 9px 22px 7px;
+	clear: both;
+	color: #fff;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	border: 2px solid rgba(255,255,255,.4);
+	border-radius: 5px;
+}
+.banner .btn:hover {
+	background: rgba(255,255,255,.05);
+}
+.banner .btn:active {
+	-webkit-filter: drop-shadow(0 -1px 2px rgba(0,0,0,.5));
+	-moz-filter: drop-shadow(0 -1px 2px rgba(0,0,0,.5));
+	-ms-filter: drop-shadow(0 -1px 2px rgba(0,0,0,.5));
+	-o-filter: drop-shadow(0 -1px 2px rgba(0,0,0,.5));
+	filter: drop-shadow(0 -1px 2px rgba(0,0,0,.5));
+}
+
+.banner .btn, .banner .dot {
+	-webkit-filter: drop-shadow(0 1px 2px rgba(0,0,0,.3));
+	-moz-filter: drop-shadow(0 1px 2px rgba(0,0,0,.3));
+	-ms-filter: drop-shadow(0 1px 2px rgba(0,0,0,.3));
+	-o-filter: drop-shadow(0 1px 2px rgba(0,0,0,.3));
+	filter: drop-shadow(0 1px 2px rgba(0,0,0,.3));
+}
+
+.banner .dots {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 20px;
+}
+.banner .dots li {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	margin: 0 4px;
+	text-indent: -999em;
+	border: 2px solid #fff;
+	border-radius: 6px;
+	cursor: pointer;
+	opacity: .4;
+	-webkit-transition: background .5s, opacity .5s;
+	-moz-transition: background .5s, opacity .5s;
+	transition: background .5s, opacity .5s;
+}
+.banner .dots li.active {
+	background: #fff;
+	opacity: 1;
+}
+	
+/*内容地址*/
+.content .epic{
+	width:100%;
+	background-color:rgb(250, 250, 250);
+    border-top:#e3e3e3 solid 1px;
+	border-bottom:#e3e3e3 solid 1px;
+	}
+.content .epic h1{
+	text-align:center;
+	color:#666;
+	width:100%;
+	font-size:24px;
+	height:50px;
+	line-height:50px;
+	font-weight:100;
+	display:block;
+	background-color:rgb(243, 243, 243);
+	border-bottom:#e3e3e3 solid 1px;
+	}
+.content .epic p{
+	padding:20px 30px 20px 30px; 
+	line-height:30px;
+	font-size:14px;
+	color:#666;
+	}
+.content .epic h1 i{
+	background:url(i_drop.png) no-repeat top center;
+	display:block;
+	height:30px;
+	width:40px;
+	z-index:10;
+	margin-top:-1px;
+	margin-left:473px;
+	}
+.content .info_nav{
+	width:100%;
+	margin-top:20px;
+	text-align:center;
+	} 
+.content .info_nav ul{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	}
+.content .info_nav ul li{
+	background-color:#FFF;
+	display:block;
+	float:left;
+	line-height:100px;
+	height:100px;
+	width:100px;
+	margin-right:27px;
+	cursor:pointer;
+	} 
+.content .info_nav ul .fzjh{
+	background:url(../img/paasicon.png) 0px 0px;
+	}
+.content .info_nav ul .fzjh:hover{
+	background:url(../img/paasicon.png) 0px 100px;
+	}
+.content .info_nav ul .jkgl{
+	background:url(../img/paasicon.png) 738px 0px;
+	}
+.content .info_nav ul .jkgl:hover{
+	background:url(../img/paasicon.png) 738px 100px;
+	}
+.content .info_nav ul .rwdd{
+	background:url(../img/paasicon.png) 631px 0px;
+	}
+.content .info_nav ul .rwdd:hover{
+	background:url(../img/paasicon.png) 631px 100px;
+	}
+.content .info_nav ul .fbscc{
+	background:url(../img/paasicon.png) 526px 0px;
+	}
+.content .info_nav ul .fbscc:hover{
+	background:url(../img/paasicon.png) 526px 100px;
+	}
+.content .info_nav ul .kzt{
+	background:url(../img/paasicon.png) 420px 0px;
+	}
+.content .info_nav ul .kzt:hover{
+	background:url(../img/paasicon.png) 420px 100px;
+	}
+.content .info_nav ul .znly{
+	background:url(../img/paasicon.png) 314px 0px;
+	}
+.content .info_nav ul .znly:hover{
+	background:url(../img/paasicon.png) 314px 100px;
+	}
+.content .info_nav ul .jsfw{
+	background:url(../img/paasicon.png) 208px 0px;
+	}
+.content .info_nav ul .jsfw:hover{
+	background:url(../img/paasicon.png) 208px 100px;
+	}
+.content .info_nav ul .sjk{
+	background:url(../img/paasicon.png) 100px 0px;
+	}
+.content .info_nav ul .sjk:hover{
+	background:url(../img/paasicon.png) 100px 100px;
+	}
+.content .info_nav ul li a {
+	cursor:pointer;
+	}
+.content .info_nav ul .info_nav_last{
+	margin-right:0px;
+	margin-left:1px;
+	}
+.content .info_box{
+	width:100%;
+	padding:30px 10px 30px 30px;
+	background-color:#FFF;
+	height:auto;
+	float:left;
+	}
+.content .info_box1{
+	background-color:rgb(244, 244, 244);
+	}
+.content .info_box h1 ,h2 {
+	display:block;
+	font-size:24px;
+	color:#666;
+	}
+.content .info_box h3{
+	color:#666;
+	height:24px;
+	font-size:16px;
+	line-height:24px;
+	color:#0066FF;
+	margin-top:20px;
+	}
+.content .info_box .info_c{
+	float:left;
+	margin-top:10px;
+	width:530px;
+	line-height:24px;
+	font-size:14px;
+	color:#666;
+	}
+.content .info_box .info_img{
+	width:400px;
+	float:right;
+	text-align:center;
+   }
+   
+ .content .info_box1 .info_c{
+	float:right;
+	margin-top:10px;
+	width:530px;
+	line-height:24px;
+	font-size:14px;
+	color:#666;
+	}
+ .content .info_box1 .info_img{
+	width:400px;
+	float:left;
+	text-align:center;
+	}
